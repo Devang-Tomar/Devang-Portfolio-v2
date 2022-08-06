@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
         <nav className="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-            <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
+            <div className="flex flex-wrap mx-auto max-w-screen-xl px-4 md:px-6 py-2.5 justify-between items-center">
                 <a href="https://flowbite.com" className="flex items-center">
                     {/* <img
                         src="https://flowbite.com/docs/images/logo.svg"
@@ -36,9 +36,12 @@ export default function Navbar() {
                 </button>
                 <div
                     id="mega-menu-full"
-                    className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
+                    className="hidden md:flex md:w-auto md:order-1"
                 >
-                    <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 items-center">
+                        <li>
+
+                        </li>
                         <li>
                             <a
                                 href="#"
@@ -174,6 +177,5 @@ export default function Navbar() {
                 </div>
             </div>
         </nav>
-
     )
 }
