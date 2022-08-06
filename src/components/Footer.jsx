@@ -1,15 +1,15 @@
 export default function Footer() {
     return (
         <div className="flex overflow-y-auto flex-col content-center justify-center text-center">
-            <div className="flex font-extrabold text-lg content-center justify-center text-center">
-                <div className="rounded-full bg-green-500 h-4 w-4"></div>
-                <p className="">AVAILBALE TO CHAT OVER A CUP OF COFFEE 🥤</p>
+            <div className="flex flex-row font-extrabold text-lg content-center justify-center text-center">
+                <div className="rounded-full bg-green-500 h-4 w-4 mt-1.5"></div>
+                <div className="ml-4">AVAILBALE TO CHAT OVER A CUP OF COFFEE 🥤</div>
             </div>
             <div className="py-20 px-80">
                 <h1
                     className="text-7xl font-extrabold"
                 >Do you have illustration project? Let's talk.</h1>
-                
+
             </div>
             <div className="">
                 <button type="button" class="text-white bg-green-500 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-full text-base px-8 py-7 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
