@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <div className="flex overflow-y-auto flex-col content-center justify-center text-center">
+        <div className="flex fixed bottom-0 overflow-y-auto flex-col content-center justify-center text-center mt-20 mb-10">
             <div className="flex flex-row font-extrabold text-lg content-center justify-center text-center">
                 <div className="rounded-full bg-green-500 h-4 w-4 mt-1.5"></div>
                 <div className="ml-4">AVAILBALE TO CHAT OVER A CUP OF COFFEE 🥤</div>
@@ -9,7 +9,6 @@ export default function Footer() {
                 <h1
                     className="text-7xl font-extrabold"
                 >Do you have illustration project? Let's talk.</h1>
-
             </div>
             <div className="">
                 <button type="button" class="text-white bg-green-500 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-full text-base px-8 py-7 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -21,7 +20,7 @@ export default function Footer() {
                 </button>
             </div>
             <div>
-                <h1 className="text-lg font-bold">© 2022 ALL RIGHT RESEVED</h1>
+                <h1 className="text-lg font-extrabold mt-10">© 2022 ALL RIGHT RESEVED</h1>
             </div>
         </div>
     )
