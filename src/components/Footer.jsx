@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <div className="flex fixed bottom-0 overflow-y-auto flex-col content-center justify-center text-center mt-20 mb-10">
+        <div className="flex flex-col content-center justify-center text-center mt-20 mb-10">
             <div className="flex flex-row font-extrabold text-lg content-center justify-center text-center">
                 <div className="rounded-full bg-green-500 h-4 w-4 mt-1.5 shadow-2xl"></div>
                 <div className="ml-4">AVAILABLE TO CHAT OVER A CUP OF COFFEE 🥤</div>

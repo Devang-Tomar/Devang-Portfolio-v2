@@ -20,7 +20,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: rgb(204, 201, 12);
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
@@ -32,13 +32,13 @@
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
 
 input:checked+.slider {
-    background-color: #2196f3;
+    background-color: #535050;
 }
 
 input:focus+.slider {
