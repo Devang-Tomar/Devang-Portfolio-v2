@@ -9,8 +9,8 @@ export default function Navbar() {
                         alt="Flowbite Logo"
                     />
                     <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-        Flowbite
-      </span>
+                        Flowbite
+                    </span>
                 </a>
                 <button
                     data-collapse-toggle="mega-menu-full"
@@ -50,7 +50,7 @@ export default function Navbar() {
                         </li>
                         <li>
                             <button
-                                id="mega-menu-full-dropdown-button"
+                                id="triggerEl"
                                 data-collapse-toggle="mega-menu-full-dropdown"
                                 className="flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-gray-700 rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
                             >
@@ -97,7 +97,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div
-                id="mega-menu-full-dropdown"
+                id="targetEl"
                 className="mt-1 bg-gray-50 border-gray-200 shadow-sm md:bg-white border-y dark:bg-gray-800 dark:border-gray-600"
             >
                 <div
@@ -110,8 +110,8 @@ export default function Navbar() {
                             >
                                 <div className="font-semibold">Online Stores</div>
                                 <span className="text-sm font-light text-gray-500 dark:text-gray-400">
-              Connect with third-party tools that you're already using.
-            </span>
+                                    Connect with third-party tools that you're already using.
+                                </span>
                             </a>
                         </li>
                         <li>
@@ -121,8 +121,8 @@ export default function Navbar() {
                             >
                                 <div className="font-semibold">Segmentation</div>
                                 <span className="text-sm font-light text-gray-500 dark:text-gray-400">
-              Connect with third-party tools that you're already using.
-            </span>
+                                    Connect with third-party tools that you're already using.
+                                </span>
                             </a>
                         </li>
                         <li>
@@ -132,8 +132,8 @@ export default function Navbar() {
                             >
                                 <div className="font-semibold">Marketing CRM</div>
                                 <span className="text-sm font-light text-gray-500 dark:text-gray-400">
-              Connect with third-party tools that you're already using.
-            </span>
+                                    Connect with third-party tools that you're already using.
+                                </span>
                             </a>
                         </li>
                     </ul>
@@ -145,8 +145,8 @@ export default function Navbar() {
                             >
                                 <div className="font-semibold">Online Stores</div>
                                 <span className="text-sm font-light text-gray-500 dark:text-gray-400">
-              Connect with third-party tools that you're already using.
-            </span>
+                                    Connect with third-party tools that you're already using.
+                                </span>
                             </a>
                         </li>
                         <li>
@@ -156,8 +156,8 @@ export default function Navbar() {
                             >
                                 <div className="font-semibold">Segmentation</div>
                                 <span className="text-sm font-light text-gray-500 dark:text-gray-400">
-              Connect with third-party tools that you're already using.
-            </span>
+                                    Connect with third-party tools that you're already using.
+                                </span>
                             </a>
                         </li>
                         <li>
@@ -167,8 +167,8 @@ export default function Navbar() {
                             >
                                 <div className="font-semibold">Marketing CRM</div>
                                 <span className="text-sm font-light text-gray-500 dark:text-gray-400">
-              Connect with third-party tools that you're already using.
-            </span>
+                                    Connect with third-party tools that you're already using.
+                                </span>
                             </a>
                         </li>
                     </ul>
