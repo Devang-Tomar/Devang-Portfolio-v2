@@ -6,8 +6,8 @@ export default function Home() {
         <>
             <Navbar></Navbar>
             <h1
-                className="text-7xl font-extra     polated font-dyna"
-            >🚀 I design digital crafts for clients.️</h1>
+                className="p-10 mx-10 my-10 text-5xl font-extrabold"
+            >Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
         </>
     )
 }
