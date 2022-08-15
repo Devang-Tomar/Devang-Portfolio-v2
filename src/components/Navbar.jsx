@@ -1,7 +1,6 @@
 import { useState } from "react"
 
 export default function Navbar() {
-    const [darkMode, setDarkMode] = useState(false);
     return (
         <nav className="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
             <div className="flex flex-wrap mx-auto max-w-screen-xl px-4 md:px-6 py-2.5 justify-between items-center">
@@ -45,7 +44,6 @@ export default function Navbar() {
                         <li>
                             <label class="switch">
                                 <input type="checkbox" onClick={() => setDarkMode(!darkMode)} />
-                                <span class="slider round"></span>
                             </label>
                         </li>
                         <li>
