@@ -9,6 +9,7 @@ export default function Footer() {
                 <h1
                     className="text-7xl font-extrabold"
                 >Do you have illustration project? Let's talk.</h1>
+                
             </div>
             <div className="">
                 <button type="button" class="text-white bg-green-500 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-full text-base px-8 py-7 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
